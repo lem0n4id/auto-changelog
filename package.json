@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/lem0n4id/auto-changelog.git",
   "author": "lem0n4id <leninkennedy4work@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
 }
